@@ -1,0 +1,1 @@
+/usr/bin/c++ -rdynamic CMakeFiles/servo_query_angle.dir/servo_query_angle.cpp.o -o servo_query_angle   -L/usr/local/bin  -Wl,-rpath,/usr/local/bin -lfsuartservo -lcserialport 

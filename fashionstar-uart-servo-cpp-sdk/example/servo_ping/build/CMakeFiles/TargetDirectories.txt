@@ -1,3 +1,4 @@
 /home/zy/fashionstar/fashionstar-uart-servo-cpp-sdk/example/servo_ping/build/CMakeFiles/servo_ping.dir
+/home/zy/fashionstar/fashionstar-uart-servo-cpp-sdk/example/servo_ping/build/CMakeFiles/dual_servo_ping.dir
 /home/zy/fashionstar/fashionstar-uart-servo-cpp-sdk/example/servo_ping/build/CMakeFiles/edit_cache.dir
 /home/zy/fashionstar/fashionstar-uart-servo-cpp-sdk/example/servo_ping/build/CMakeFiles/rebuild_cache.dir

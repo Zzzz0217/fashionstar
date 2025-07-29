@@ -44,4 +44,5 @@ set(CMAKE_MAKEFILE_PRODUCTS
 # Dependency information for all targets:
 set(CMAKE_DEPEND_INFO_FILES
   "CMakeFiles/servo_ping.dir/DependInfo.cmake"
+  "CMakeFiles/dual_servo_ping.dir/DependInfo.cmake"
   )

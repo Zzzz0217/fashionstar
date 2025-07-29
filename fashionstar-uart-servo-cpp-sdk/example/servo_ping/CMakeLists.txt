@@ -20,7 +20,10 @@ include_directories(${CMAKE_INSTALL_PREFIX}/include)
 # # 添加link文件夹
 link_directories(${CMAKE_INSTALL_PREFIX}/bin)
 
-# 添加可执行程序hello_demo
+# 添加可执行程序
 add_executable(servo_ping servo_ping.cpp)
+add_executable(dual_servo_ping dual_servo_ping.cpp)
+
 # 添加动态链接库的路径
 target_link_libraries(servo_ping  fsuartservo cserialport)
+target_link_libraries(dual_servo_ping  fsuartservo cserialport)

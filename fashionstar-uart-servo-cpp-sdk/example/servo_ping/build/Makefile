@@ -129,6 +129,43 @@ servo_ping/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/servo_ping.dir/build.make CMakeFiles/servo_ping.dir/build
 .PHONY : servo_ping/fast
 
+#=============================================================================
+# Target rules for targets named dual_servo_ping
+
+# Build rule for target.
+dual_servo_ping: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 dual_servo_ping
+.PHONY : dual_servo_ping
+
+# fast build rule for target.
+dual_servo_ping/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/dual_servo_ping.dir/build.make CMakeFiles/dual_servo_ping.dir/build
+.PHONY : dual_servo_ping/fast
+
+dual_servo_ping.o: dual_servo_ping.cpp.o
+.PHONY : dual_servo_ping.o
+
+# target to build an object file
+dual_servo_ping.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/dual_servo_ping.dir/build.make CMakeFiles/dual_servo_ping.dir/dual_servo_ping.cpp.o
+.PHONY : dual_servo_ping.cpp.o
+
+dual_servo_ping.i: dual_servo_ping.cpp.i
+.PHONY : dual_servo_ping.i
+
+# target to preprocess a source file
+dual_servo_ping.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/dual_servo_ping.dir/build.make CMakeFiles/dual_servo_ping.dir/dual_servo_ping.cpp.i
+.PHONY : dual_servo_ping.cpp.i
+
+dual_servo_ping.s: dual_servo_ping.cpp.s
+.PHONY : dual_servo_ping.s
+
+# target to generate assembly for a file
+dual_servo_ping.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/dual_servo_ping.dir/build.make CMakeFiles/dual_servo_ping.dir/dual_servo_ping.cpp.s
+.PHONY : dual_servo_ping.cpp.s
+
 servo_ping.o: servo_ping.cpp.o
 .PHONY : servo_ping.o
 
@@ -161,7 +198,11 @@ help:
 	@echo "... depend"
 	@echo "... edit_cache"
 	@echo "... rebuild_cache"
+	@echo "... dual_servo_ping"
 	@echo "... servo_ping"
+	@echo "... dual_servo_ping.o"
+	@echo "... dual_servo_ping.i"
+	@echo "... dual_servo_ping.s"
 	@echo "... servo_ping.o"
 	@echo "... servo_ping.i"
 	@echo "... servo_ping.s"
